@@ -37,7 +37,7 @@ body {
 .main {
     display: grid;
     grid-template-columns: 20% 1fr;
-    grid-template-rows: 10% 47% 10%;
+    grid-template-rows: 10% 55% 10%;
     height: 100vh;
     grid-gap: .5em;
     grid-template-areas:
@@ -54,23 +54,40 @@ body {
 
 #hello {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+    color: white;
+    opacity: .5;
 
 }
 
 #junior {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    opacity: .5;
 }
 
 
 #info {
     text-align: center;
+    font-size: 20px;
 }
 
+.info-icon{
+    color:#E6938C;
+}
 
-
+.span-color{
+    color:white;
+    opacity: .5;
+}
 
 #name {
     text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Righteous', cursive;
+    color: #E6938C;
+
 }
 
 
