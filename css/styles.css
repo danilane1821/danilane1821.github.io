@@ -35,3 +35,11 @@ body{
 #other {
     background-color: #50C4B6;
 }
+
+#placeholder {
+    float: left;
+}
+
+#abouth3 {
+    text-align: center;
+}
