@@ -47,6 +47,33 @@ body {
 }
 
 
+#placeholder {
+    width: 350px;
+}
+
+
+#hello {
+  text-align: center;
+
+}
+
+#junior {
+    text-align: center;
+}
+
+
+#info {
+    text-align: center;
+}
+
+
+
+
+#name {
+    text-align: center;
+}
+
+
 .main {
     grid-area: main;
 }
