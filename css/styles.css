@@ -1,8 +1,10 @@
 
-body{
-    background-color: #166172;
-}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E6938C;
 
+}
 
 
 .jumbotron {
@@ -13,7 +15,7 @@ body{
 #jumh1 {
     text-align: center;
     font-size: 60px;
-    color: #C5CD13;
+    color: #E6938C;
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Righteous', cursive;
     font-family: 'Cinzel', serif;
@@ -28,18 +30,37 @@ body{
     font-family: 'Cinzel', serif;
 }
 
-#about-me {
-    background-color: #C5CD13;
+
+.main {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 10% 1fr 10% 10%;
+    height: 100vh;
+    grid-gap: .5em;
+    grid-template-areas:
+            "nav article"
+            "nav article"
+            "nav article"
+            "footer footer";
 }
 
-#other {
-    background-color: #50C4B6;
+
+.main {
+    grid-area: main;
 }
 
-#placeholder {
-    float: left;
+.nav {
+    background-color: #103A44;
+    grid-area: nav;
 }
 
-#abouth3 {
-    text-align: center;
+.article {
+    background-color: #166172;
+    grid-area: article;
+}
+
+
+.footer {
+    background-color: #103A44;
+    grid-area: footer;
 }
